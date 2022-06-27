@@ -52,7 +52,12 @@
 
 ## HTML Elements
 
-> An HTML element is a piece of HTML that is used to create a web page. 
+> An HTML element is a piece of HTML that is used to create a web page.  A HTML element consists of a tag and some content.
+
+For Example:
+
+<h1>content</h1>
+
 
 ## HTML Attributes
 
