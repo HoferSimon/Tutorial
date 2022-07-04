@@ -266,4 +266,163 @@ Output:
 
 ### Font
 
+> You can change the font. With the `font-family:yourfont` attribute.
+
+Code:
+
+```
+<p style="font-family:Arial;">This is a Arial text</p>
+```
+
+Output:
+
+<p style="font-family:Arial;">This is a Arial text</p>
+
 ### Text Size
+
+> You can change the size of a text. With the `font-size:yourtextsize` attribute.
+
+Code:
+
+```
+<p style="font-size:20px;">This is a 20px text</p>
+```
+
+Output:
+
+<p style="font-size:20px;">This is a 20px text</p>
+
+
+## Formatting Text
+
+> You can change the format of a text for a specific purpose.
+
+> For example: <b>, <strong>, <i>, <em>, <mark>, <small>, <del>, <ins>, <sub>, <sup>.
+
+### <b> and <strong> Element
+
+> The `<b>` and `<strong>` element is used to make text bold.
+
+Code:
+
+```
+<b>This text is bold</b>
+
+or
+
+<strong>This text is bold</strong
+```
+
+Output:
+
+<b>This text is bold</b>
+
+or
+
+<strong>This text is bold</strong>
+
+### <i> and <em> Element
+
+> The `<i>` and `<em>` element is used to make text italic.
+
+Code:
+
+```
+<i>This text is italic</i>
+
+or
+
+<em>This text is italic</em>
+```
+
+Output:
+
+<i>This text is italic</i>
+
+or
+
+<em>This text is italic</em>
+
+### <mark> Element
+
+> The `<mark>` element is used to mark text.
+
+Code:
+
+```
+<mark>This text is mark</mark>
+```
+
+Output:
+
+<mark>This text is mark</mark>
+
+### <small> Element
+
+> The `<small>` element is used to make text smaller.
+
+Code:
+
+```
+<small>This text is small</small>
+```
+
+Output:
+
+<small>This text is small</small>
+
+### <del> Element
+
+> The `<del>` element is used to mark deleted text.
+
+Code:
+
+```
+<del>This text is strikethrough</del>
+```
+
+Output:
+
+<del>This text is strikethrough</del>
+
+### <ins> Element
+
+> The `<ins>` element is used to mark inserted text.
+
+Code:
+
+```
+<ins>This text is inserted</ins>
+```
+
+Output:
+
+<ins>This text is inserted</ins>
+
+### <sub> Element
+
+> The `<sub>` element is used to mark subscripted text.
+
+Code:
+
+```
+<sub>This text is subscripted</sub>
+```
+
+Output:
+
+<sub>This text is subscripted</sub>
+
+### <sup> Element
+
+> The `<sup>` element is used to mark superscripted text.
+
+Code:
+
+```
+<sup>This text is superscripted</sup>
+```
+
+Output:
+
+<sup>This text is superscripted</sup>
