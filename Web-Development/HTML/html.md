@@ -64,17 +64,13 @@ Output:
 
 <h1>Content</h1>
 
-> Some HTML elements dont have no content and don't have a closing tag. This is Elements are called empty elements.
+> Some HTML elements don't have content and don't have a closing tag. This is Elements are called empty elements.
 
 Code:
 
 ```
 <br>
 ```
-
-Output:
-
-<br>  
 
 (The `<br>` tag, produces a line break in text.)
 
@@ -116,7 +112,6 @@ Code:
 ```
 <img src="/HTML/Images/Image.png">
 ```
-
 
 ### The href Attribute
 
@@ -232,10 +227,6 @@ Code:
 <tagname style="property:value;">
 ```
 
-Output:
-
-<tagname style="property:value;">
-
 ### Text Color
 
 > You can change the color of a text element. With the `color:yourcolor` attribute.
@@ -245,10 +236,6 @@ Code:
 ```
 <p style="color:red;">This is a red text</p>
 ```
-
-Output:
-
-<p style="color:red;">This is a red text</p>
 
 ### Background Color
 
@@ -260,10 +247,6 @@ Code:
 <p style="background-color:red;">This is a red text</p>
 ```
 
-Output:
-
-<p style="background-color:red;">This is a red text</p>
-
 ### Font
 
 > You can change the font. With the `font-family:yourfont` attribute.
@@ -274,10 +257,6 @@ Code:
 <p style="font-family:Arial;">This is a Arial text</p>
 ```
 
-Output:
-
-<p style="font-family:Arial;">This is a Arial text</p>
-
 ### Text Size
 
 > You can change the size of a text. With the `font-size:yourtextsize` attribute.
@@ -287,11 +266,6 @@ Code:
 ```
 <p style="font-size:20px;">This is a 20px text</p>
 ```
-
-Output:
-
-<p style="font-size:20px;">This is a 20px text</p>
-
 
 ## Formatting Text
 
@@ -442,10 +416,6 @@ Code:
 <p style="color:red;">This is a red text</p>
 ```
 
-Output:
-
-<p style="color:red;">This is a red text</p>
-
 ### RGB
 
 > You can specify a color by using RGB.
@@ -455,10 +425,6 @@ Code:
 ```
 <p style="color:rgb(255,0,0);">This is a red text</p>
 ```
-
-Output:
-
-<p style="color:rgb(255,0,0);">This is a red text</p>
 
 ### HEX
 
@@ -470,10 +436,6 @@ Code:
 <p style="color:#ff0000;">This is a red text</p>
 ```
 
-Output:
-
-<p style="color:#ff0000;">This is a red text</p>
-
 ### HSL
 
 > You can specify a color by using HSL.
@@ -484,12 +446,6 @@ Code:
 <p style="color:hsl(0,100%,50%);">This is a red text</p>
 ```
 
-Output:
-
-<p style="color:hsl(0,100%,50%);">This is a red text</p>
-
-### RGBA
-
 > You can specify a color by using RGBA.
 
 Code:
@@ -497,10 +453,6 @@ Code:
 ```
 <p style="color:rgba(255,0,0,0.5);">This is a red text</p>
 ```
-
-Output:
-
-<p style="color:rgba(255,0,0,0.5);">This is a red text</p>
 
 ### HSLA
 
@@ -511,11 +463,6 @@ Code:
 ```
 <p style="color:hsla(0,100%,50%,0.5);">This is a red text</p>
 ```
-
-Output:
-
-<p style="color:hsla(0,100%,50%,0.5);">This is a red text</p>
-
 
 ## Tables
 
@@ -597,6 +544,44 @@ Output:
 
 ## Lists
 
+> Lists are used to display data in a structured way. Lists can be ordered or unordered.
+
+Code:
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>List</h2>
+
+<ul>
+  <li>1. Task</li>
+  <li>2. Task</li>
+  <li>3. Task</li>
+</ul>  
+
+</body>
+</html>
+```
+
+Output:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>List</h2>
+
+<ul>
+  <li>1. Task</li>
+  <li>2. Task</li>
+  <li>3. Task</li>
+</ul>  
+
+</body>
+</html>
+
 
 ## Comments
 
@@ -608,6 +593,94 @@ Code:
 <!-- This is a comment -->
 ```
 
-Output:
 
-<!-- This is a comment -->
+## Head
+
+> The `<head>` element contains the head of the document.
+
+> In the head, you can add meta tags, links, etc.
+
+Code:
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <p>This is the header.</p> 
+    </head>
+    <body>
+    </body>
+</html>
+```
+
+### Title
+
+> The title element contains the title of the document.
+
+Code:
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is the title.</title>
+    </head>
+    <body>
+    </body>
+</html>
+```
+
+### Meta Tags
+
+> Meta tags are used to specify information about the HTML document.
+
+#### Charset
+
+> The charset attribute specifies the character of the document. This provides that there arent strange character in the text.
+
+Code:
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    </body>
+</html>
+```
+
+#### Viewport
+
+> The viewport attribute specifies the size of the browser window.
+
+Code:
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    </body>
+</html>
+```
+
+### Links
+
+> Links are used to link to other pages. For example your CSS file.
+
+Code:
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="yourstyle.css">
+    </head>
+    <body>
+    </body>
+</html>
+```
