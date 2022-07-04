@@ -3,10 +3,7 @@
 > In this tutorial, we will learn how to write HTML.
 
 
-<br /><br />
-
-
-
+<br />
 
 
 ## Introduction
@@ -14,10 +11,7 @@
 > HTML is a markup language used to create web pages. HTML describe the structure of a web page and the most inportant part, HTML is NOT a programming language.
 
 
-<br /><br />
-
-
-
+<br />
 
 
 ## Starting
@@ -25,17 +19,12 @@
 > If you want to start with HTML, you should know the following: How to create a HTML page. If you didnt know how to do it yet, you are free to jump to [How to create a HTML page](/Web-Development/How-to-create-a-Web-Page.md) and start learning.
 
 
-<br /><br />
-
-
-
+<br />
 
 
 ## Basics
 
 > Now that you should know how to create a HTML page, you can start learning HTML.
-
-<br />
 
 > If you start with a new HTML page, you always start with the following structure:
 
@@ -59,7 +48,7 @@
 > - The `<p>` tag is used to define the start of the paragraph.
 
 
-
+<br />
 
 
 ## Elements
@@ -87,14 +76,14 @@ Code:
 (The `<br>` tag, produces a line break in text.)
 
 
-
+<br />
 
 
 ## Attributes
 
 > An HTML attribute is a piece of information that is associated with an HTML element. It provide additional information about the element. An Attribute is always in the start tag.
 
-
+<br />
 
 ### The src Attribute
 
@@ -110,7 +99,7 @@ Output:
 
 <img src="Image.png">
 
-
+<br />
 
 #### Absolute Attribute
 
@@ -124,7 +113,7 @@ Output:
 
 <img src="http://www.example.com/Image.png">
 
-
+<br />
 
 #### Relative Attribute
 
@@ -134,7 +123,7 @@ Code:
 <img src="/HTML/Images/Image.png">
 ```
 
-
+<br />
 
 ### The href Attribute
 
@@ -150,7 +139,7 @@ Output:
 
 <a href="http://www.example.com">This link links you to the example.com Website</a>
 
-
+<br />
 
 ### The Alt Attribute
 
@@ -166,13 +155,13 @@ Output:
 
 <img src="Image.png" alt="This is an image">
 
-
+<br />
 
 ### CSS Attributes
 
 > The CSS Attributes can also be set in a CSS file. For better viseibility, you should use the a specific CSS file.
 
-
+<br />
 
 #### The width and height Attributes
 
@@ -188,7 +177,7 @@ Output:
 
 <img src="Image.png" width="200" height="200">
 
-
+<br />
 
 #### The style Attribute
 
@@ -205,7 +194,7 @@ Output:
 <p style="color:red; font-size:20px;">This is a red text</p>
 
 
-
+<br />
 
 
 ## Headings
@@ -235,7 +224,7 @@ Output:
 <h6>Heading 6</h6>
 
 
-
+<br />
 
 
 ## Paragraphs
@@ -253,7 +242,7 @@ Output:
 <p>This is a paragraph</p>
 
 
-
+<br />
 
 
 ## Styles
@@ -270,7 +259,7 @@ Code:
 <tagname style="property:value;">
 ```
 
-
+<br />
 
 ### Text Color
 
@@ -282,7 +271,7 @@ Code:
 <p style="color:red;">This is a red text</p>
 ```
 
-
+<br />
 
 ### Background Color
 
@@ -294,7 +283,7 @@ Code:
 <p style="background-color:red;">This is a red text</p>
 ```
 
-
+<br />
 
 ### Font
 
@@ -306,7 +295,7 @@ Code:
 <p style="font-family:Arial;">This is a Arial text</p>
 ```
 
-
+<br />
 
 ### Text Size
 
@@ -319,7 +308,7 @@ Code:
 ```
 
 
-
+<br />
 
 
 ## Formatting Text
@@ -328,7 +317,7 @@ Code:
 
 > For example: <b>, <strong>, <i>, <em>, <mark>, <small>, <del>, <ins>, <sub>, <sup>.
 
-
+<br />
 
 ### `<b>` and `<strong>` Element
 
@@ -352,7 +341,7 @@ or
 
 <strong>This text is bold</strong>
 
-
+<br />
 
 ### `<i>` and `<em>` Element
 
@@ -376,7 +365,7 @@ or
 
 <em>This text is italic</em>
 
-
+<br />
 
 ### `<mark>` Element
 
@@ -392,7 +381,7 @@ Output:
 
 <mark>This text is mark</mark>
 
-
+<br />
 
 ### `<small>` Element
 
@@ -408,7 +397,7 @@ Output:
 
 <small>This text is small</small>
 
-
+<br />
 
 ### `<del>` Element
 
@@ -424,7 +413,7 @@ Output:
 
 <del>This text is strikethrough</del>
 
-
+<br />
 
 ### `<ins>` Element
 
@@ -440,7 +429,7 @@ Output:
 
 <ins>This text is inserted</ins>
 
-
+<br />
 
 ### `<sub>` Element
 
@@ -456,7 +445,7 @@ Output:
 
 <sub>This text is subscripted</sub>
 
-
+<br />
 
 ### `<sup>` Element
 
@@ -473,14 +462,14 @@ Output:
 <sup>This text is superscripted</sup>
 
 
-
+<br />
 
 
 ## Colors
 
 > You can change the color of an element with predefined colors name, with RGB, HEX, HSL, RGBA or HSLA.
 
-
+<br />
 
 ### Color Name
 
@@ -492,7 +481,7 @@ Code:
 <p style="color:red;">This is a red text</p>
 ```
 
-
+<br />
 
 ### RGB
 
@@ -504,7 +493,7 @@ Code:
 <p style="color:rgb(255,0,0);">This is a red text</p>
 ```
 
-
+<br />
 
 ### HEX
 
@@ -516,7 +505,7 @@ Code:
 <p style="color:#ff0000;">This is a red text</p>
 ```
 
-
+<br />
 
 ### HSL
 
@@ -536,7 +525,7 @@ Code:
 <p style="color:rgba(255,0,0,0.5);">This is a red text</p>
 ```
 
-
+<br />
 
 ### HSLA
 
@@ -549,7 +538,7 @@ Code:
 ```
 
 
-
+<br />
 
 
 ## Tables
@@ -631,7 +620,7 @@ Output:
 </html>
 
 
-
+<br />
 
 
 ## Lists
@@ -675,7 +664,7 @@ Output:
 </html>
 
 
-
+<br />
 
 
 ## Comments
@@ -689,7 +678,7 @@ Code:
 ```
 
 
-
+<br />
 
 
 ## Head
@@ -711,7 +700,7 @@ Code:
 </html>
 ```
 
-
+<br />
 
 ### Title
 
@@ -730,13 +719,13 @@ Code:
 </html>
 ```
 
-
+<br />
 
 ### Meta Tags
 
 > Meta tags are used to specify information about the HTML document.
 
-
+<br />
 
 #### Charset
 
@@ -755,7 +744,7 @@ Code:
 </html>
 ```
 
-
+<br />
 
 #### Viewport
 
@@ -774,7 +763,7 @@ Code:
 </html>
 ```
 
-
+<br />
 
 ### Links
 
