@@ -299,7 +299,7 @@ Output:
 
 > For example: <b>, <strong>, <i>, <em>, <mark>, <small>, <del>, <ins>, <sub>, <sup>.
 
-### <b> and <strong> Element
+### `<b>` and `<strong>` Element
 
 > The `<b>` and `<strong>` element is used to make text bold.
 
