@@ -166,10 +166,104 @@ Output:
 
 #### The style Attribute
 
+> The style Attribute is used to add styles to an element. For exaple color, size, font, etc.
 
+Code:
+
+```
+<p style="color:red; font-size:20px;">This is a red text</p>
+```
+
+Output:
+
+<p style="color:red; font-size:20px;">This is a red text</p>
 
 ## HTML Headings
 
+> Headings are used to display the title of a page or subtitles. The `<h1>` tag is used to define the start of the heading. There are 6 different headings. The `<h1>` tag is used for the largest heading. The `<h6>` tag is used for the smallest heading.
+
+> Why do we use headings? Search engines use headings to index the content of a page. Headings are also used to separate sections of a page.
+
+Code:
+
+```
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+```
+
+Output:
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
 ## HTML Paragraphs
 
+> HTML Paragraphs are used to create paragraphs. The `<p>` tag is used to define the start of the paragraph.
+
+Code:
+
+```
+<p>This is a paragraph</p>
+```
+
+Output:
+
+<p>This is a paragraph</p>
+
 ## HTML Styles
+
+> The style Attribute is used to add styles to an element. For exaple color, size, font, etc.
+
+> You should use the style Attributes just for small style changes. For example, if you want to change the color of a text, you should use the style Attribute. If you want to style a whole section of a page, you should use a CSS file.
+
+> The style Attribute is played in the start tag. The style Attribute has the following format:
+
+Code:
+
+```
+<tagname style="property:value;">
+```
+
+Output:
+
+<tagname style="property:value;">
+
+### Text Color
+
+> You can change the color of a text element. With the `color:yourcolor` attribute.
+
+Code:
+
+```
+<p style="color:red;">This is a red text</p>
+```
+
+Output:
+
+<p style="color:red;">This is a red text</p>
+
+### Background Color
+
+> You can change the background color. With the `background-color:yourcolor` attribute.
+
+Code:
+
+```
+<p style="background-color:red;">This is a red text</p>
+```
+
+Output:
+
+<p style="background-color:red;">This is a red text</p>
+
+### Font
+
+### Text Size
