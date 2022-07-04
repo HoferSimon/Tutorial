@@ -170,10 +170,6 @@ Code:
 <img src="Image.png" width="200" height="200">
 ```
 
-Output:
-
-<img src="Image.png" width="200" height="200">
-
 <br />
 
 #### The style Attribute
