@@ -577,17 +577,17 @@ Output:
   </tr>
   <tr>
     <td>Simon</td>
-    <td>Daniel</td>
-    <td>Markus</td>
-  </tr>
-  <tr>
     <td>simon@gmail.com</td>
-    <td>daniel@gmail.com</td>
-    <td>markus@gmail.com</td>
+    <td>1112223333</td>
   </tr>
   <tr>
-    <td>1112223333</td>
+    <td>Daniel</td>
+    <td>daniel@gmail.com</td>
     <td>4445556666</td>
+  </tr>
+  <tr>
+    <td>Markus</td>
+    <td>markus@gmail.com</td>
     <td>7778889999</td>
   </tr>
 </table>
