@@ -321,7 +321,7 @@ or
 
 <strong>This text is bold</strong>
 
-### <i> and <em> Element
+### `<i>` and `<em>` Element
 
 > The `<i>` and `<em>` element is used to make text italic.
 
@@ -343,7 +343,7 @@ or
 
 <em>This text is italic</em>
 
-### <mark> Element
+### `<mark>` Element
 
 > The `<mark>` element is used to mark text.
 
@@ -357,7 +357,7 @@ Output:
 
 <mark>This text is mark</mark>
 
-### <small> Element
+### `<small>` Element
 
 > The `<small>` element is used to make text smaller.
 
@@ -371,7 +371,7 @@ Output:
 
 <small>This text is small</small>
 
-### <del> Element
+### `<del>` Element
 
 > The `<del>` element is used to mark deleted text.
 
@@ -385,7 +385,7 @@ Output:
 
 <del>This text is strikethrough</del>
 
-### <ins> Element
+### `<ins>` Element
 
 > The `<ins>` element is used to mark inserted text.
 
@@ -399,7 +399,7 @@ Output:
 
 <ins>This text is inserted</ins>
 
-### <sub> Element
+### `<sub>` Element
 
 > The `<sub>` element is used to mark subscripted text.
 
@@ -413,7 +413,7 @@ Output:
 
 <sub>This text is subscripted</sub>
 
-### <sup> Element
+### `<sup>` Element
 
 > The `<sup>` element is used to mark superscripted text.
 
