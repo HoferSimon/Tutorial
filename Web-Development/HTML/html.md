@@ -6,7 +6,7 @@
 <br /><br />
 
 
-## HTML Introduction
+## Introduction
 
 > HTML is a markup language used to create web pages. HTML describe the structure of a web page and the most inportant part, HTML is NOT a programming language.
 
@@ -14,7 +14,7 @@
 <br /><br />
 
 
-## Starting with HTML
+## Starting
 
 > If you want to start with HTML, you should know the following: How to create a HTML page. If you didnt know how to do it yet, you are free to jump to [How to create a HTML page](/Web-Development/How-to-create-a-Web-Page.md) and start learning.
 
@@ -22,7 +22,7 @@
 <br /><br />
 
 
-## HTML Basics
+## Basics
 
 > Now that you should know how to create a HTML page, you can start learning HTML.
 
@@ -50,7 +50,7 @@
 > - The `<p>` tag is used to define the start of the paragraph.
 
 
-## HTML Elements
+## Elements
 
 > An HTML element is a piece of HTML that is used to create a web page.  A HTML element consists of a tag and some content.
 
@@ -79,7 +79,7 @@ Output:
 (The `<br>` tag, produces a line break in text.)
 
 
-## HTML Attributes
+## Attributes
 
 > An HTML attribute is a piece of information that is associated with an HTML element. It provide additional information about the element. An Attribute is always in the start tag.
 
@@ -178,7 +178,7 @@ Output:
 
 <p style="color:red; font-size:20px;">This is a red text</p>
 
-## HTML Headings
+## Headings
 
 > Headings are used to display the title of a page or subtitles. The `<h1>` tag is used to define the start of the heading. There are 6 different headings. The `<h1>` tag is used for the largest heading. The `<h6>` tag is used for the smallest heading.
 
@@ -204,7 +204,7 @@ Output:
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 
-## HTML Paragraphs
+## Paragraphs
 
 > HTML Paragraphs are used to create paragraphs. The `<p>` tag is used to define the start of the paragraph.
 
@@ -218,7 +218,7 @@ Output:
 
 <p>This is a paragraph</p>
 
-## HTML Styles
+## Styles
 
 > The style Attribute is used to add styles to an element. For exaple color, size, font, etc.
 
@@ -426,3 +426,153 @@ Code:
 Output:
 
 <sup>This text is superscripted</sup>
+
+
+## Colors
+
+> You can change the color of an element with predefined colors name, with RGB, HEX, HSL, RGBA or HSLA.
+
+### Color Name
+
+> You can specify a color by using there name.
+
+Code:
+
+```
+<p style="color:red;">This is a red text</p>
+```
+
+Output:
+
+<p style="color:red;">This is a red text</p>
+
+### RGB
+
+> You can specify a color by using RGB.
+
+Code:
+
+```
+<p style="color:rgb(255,0,0);">This is a red text</p>
+```
+
+Output:
+
+<p style="color:rgb(255,0,0);">This is a red text</p>
+
+### HEX
+
+> You can specify a color by using HEX.
+
+Code:
+
+```
+<p style="color:#ff0000;">This is a red text</p>
+```
+
+Output:
+
+<p style="color:#ff0000;">This is a red text</p>
+
+### HSL
+
+> You can specify a color by using HSL.
+
+Code:
+
+```
+<p style="color:hsl(0,100%,50%);">This is a red text</p>
+```
+
+Output:
+
+<p style="color:hsl(0,100%,50%);">This is a red text</p>
+
+### RGBA
+
+> You can specify a color by using RGBA.
+
+Code:
+
+```
+<p style="color:rgba(255,0,0,0.5);">This is a red text</p>
+```
+
+Output:
+
+<p style="color:rgba(255,0,0,0.5);">This is a red text</p>
+
+### HSLA
+
+> You can specify a color by using HSLA.
+
+Code:
+
+```
+<p style="color:hsla(0,100%,50%,0.5);">This is a red text</p>
+```
+
+Output:
+
+<p style="color:hsla(0,100%,50%,0.5);">This is a red text</p>
+
+
+## Tables
+
+> Tables are used to display data in a structured way.
+
+Code:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<h2>Table</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone Number</th>
+  </tr>
+  <tr>
+    <td>Simon</td>
+    <td>Daniel</td>
+    <td>Markus</td>
+  </tr>
+  <tr>
+    <td>simon@gmail.com</td>
+    <td>daniel@gmail.com</td>
+    <td>markus@gmail.com</td>
+  </tr>
+  <tr>
+    <td>1112223333</td>
+    <td>4445556666</td>
+    <td>7778889999</td>
+  </tr>
+</table>
+
+</body>
+</html>
+```
+
+
+## Lists
+
+
+## Comments
+
+> Comments are used to add notes to a page. Comments are not displayed in the browser.
+
+Code:
+
+```
+<!-- This is a comment -->
+```
+
+Output:
+
+<!-- This is a comment -->
