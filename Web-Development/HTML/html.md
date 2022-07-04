@@ -6,6 +6,9 @@
 <br /><br />
 
 
+
+
+
 ## Introduction
 
 > HTML is a markup language used to create web pages. HTML describe the structure of a web page and the most inportant part, HTML is NOT a programming language.
@@ -14,12 +17,18 @@
 <br /><br />
 
 
+
+
+
 ## Starting
 
 > If you want to start with HTML, you should know the following: How to create a HTML page. If you didnt know how to do it yet, you are free to jump to [How to create a HTML page](/Web-Development/How-to-create-a-Web-Page.md) and start learning.
 
 
 <br /><br />
+
+
+
 
 
 ## Basics
@@ -50,6 +59,9 @@
 > - The `<p>` tag is used to define the start of the paragraph.
 
 
+
+
+
 ## Elements
 
 > An HTML element is a piece of HTML that is used to create a web page.  A HTML element consists of a tag and some content.
@@ -75,9 +87,14 @@ Code:
 (The `<br>` tag, produces a line break in text.)
 
 
+
+
+
 ## Attributes
 
 > An HTML attribute is a piece of information that is associated with an HTML element. It provide additional information about the element. An Attribute is always in the start tag.
+
+
 
 ### The src Attribute
 
@@ -93,6 +110,8 @@ Output:
 
 <img src="Image.png">
 
+
+
 #### Absolute Attribute
 
 Code:
@@ -105,6 +124,8 @@ Output:
 
 <img src="http://www.example.com/Image.png">
 
+
+
 #### Relative Attribute
 
 Code:
@@ -112,6 +133,8 @@ Code:
 ```
 <img src="/HTML/Images/Image.png">
 ```
+
+
 
 ### The href Attribute
 
@@ -127,6 +150,8 @@ Output:
 
 <a href="http://www.example.com">This link links you to the example.com Website</a>
 
+
+
 ### The Alt Attribute
 
 > The `alt` requires the `<img>` tag. The `Alt` attribute is used to display an alternate text for an image, if the image cannot be displayed. If the image cant be displayed the user can see the text and know what image should be displayed instead. The user cna also hover over the image and see the text.
@@ -141,9 +166,13 @@ Output:
 
 <img src="Image.png" alt="This is an image">
 
+
+
 ### CSS Attributes
 
 > The CSS Attributes can also be set in a CSS file. For better viseibility, you should use the a specific CSS file.
+
+
 
 #### The width and height Attributes
 
@@ -159,6 +188,8 @@ Output:
 
 <img src="Image.png" width="200" height="200">
 
+
+
 #### The style Attribute
 
 > The style Attribute is used to add styles to an element. For exaple color, size, font, etc.
@@ -172,6 +203,10 @@ Code:
 Output:
 
 <p style="color:red; font-size:20px;">This is a red text</p>
+
+
+
+
 
 ## Headings
 
@@ -199,6 +234,10 @@ Output:
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 
+
+
+
+
 ## Paragraphs
 
 > HTML Paragraphs are used to create paragraphs. The `<p>` tag is used to define the start of the paragraph.
@@ -212,6 +251,10 @@ Code:
 Output:
 
 <p>This is a paragraph</p>
+
+
+
+
 
 ## Styles
 
@@ -227,6 +270,8 @@ Code:
 <tagname style="property:value;">
 ```
 
+
+
 ### Text Color
 
 > You can change the color of a text element. With the `color:yourcolor` attribute.
@@ -236,6 +281,8 @@ Code:
 ```
 <p style="color:red;">This is a red text</p>
 ```
+
+
 
 ### Background Color
 
@@ -247,6 +294,8 @@ Code:
 <p style="background-color:red;">This is a red text</p>
 ```
 
+
+
 ### Font
 
 > You can change the font. With the `font-family:yourfont` attribute.
@@ -256,6 +305,8 @@ Code:
 ```
 <p style="font-family:Arial;">This is a Arial text</p>
 ```
+
+
 
 ### Text Size
 
@@ -267,11 +318,17 @@ Code:
 <p style="font-size:20px;">This is a 20px text</p>
 ```
 
+
+
+
+
 ## Formatting Text
 
 > You can change the format of a text for a specific purpose.
 
 > For example: <b>, <strong>, <i>, <em>, <mark>, <small>, <del>, <ins>, <sub>, <sup>.
+
+
 
 ### `<b>` and `<strong>` Element
 
@@ -295,6 +352,8 @@ or
 
 <strong>This text is bold</strong>
 
+
+
 ### `<i>` and `<em>` Element
 
 > The `<i>` and `<em>` element is used to make text italic.
@@ -317,6 +376,8 @@ or
 
 <em>This text is italic</em>
 
+
+
 ### `<mark>` Element
 
 > The `<mark>` element is used to mark text.
@@ -330,6 +391,8 @@ Code:
 Output:
 
 <mark>This text is mark</mark>
+
+
 
 ### `<small>` Element
 
@@ -345,6 +408,8 @@ Output:
 
 <small>This text is small</small>
 
+
+
 ### `<del>` Element
 
 > The `<del>` element is used to mark deleted text.
@@ -358,6 +423,8 @@ Code:
 Output:
 
 <del>This text is strikethrough</del>
+
+
 
 ### `<ins>` Element
 
@@ -373,6 +440,8 @@ Output:
 
 <ins>This text is inserted</ins>
 
+
+
 ### `<sub>` Element
 
 > The `<sub>` element is used to mark subscripted text.
@@ -386,6 +455,8 @@ Code:
 Output:
 
 <sub>This text is subscripted</sub>
+
+
 
 ### `<sup>` Element
 
@@ -402,9 +473,14 @@ Output:
 <sup>This text is superscripted</sup>
 
 
+
+
+
 ## Colors
 
 > You can change the color of an element with predefined colors name, with RGB, HEX, HSL, RGBA or HSLA.
+
+
 
 ### Color Name
 
@@ -416,6 +492,8 @@ Code:
 <p style="color:red;">This is a red text</p>
 ```
 
+
+
 ### RGB
 
 > You can specify a color by using RGB.
@@ -426,6 +504,8 @@ Code:
 <p style="color:rgb(255,0,0);">This is a red text</p>
 ```
 
+
+
 ### HEX
 
 > You can specify a color by using HEX.
@@ -435,6 +515,8 @@ Code:
 ```
 <p style="color:#ff0000;">This is a red text</p>
 ```
+
+
 
 ### HSL
 
@@ -454,6 +536,8 @@ Code:
 <p style="color:rgba(255,0,0,0.5);">This is a red text</p>
 ```
 
+
+
 ### HSLA
 
 > You can specify a color by using HSLA.
@@ -463,6 +547,10 @@ Code:
 ```
 <p style="color:hsla(0,100%,50%,0.5);">This is a red text</p>
 ```
+
+
+
+
 
 ## Tables
 
@@ -542,6 +630,10 @@ Output:
 </body>
 </html>
 
+
+
+
+
 ## Lists
 
 > Lists are used to display data in a structured way. Lists can be ordered or unordered.
@@ -583,6 +675,9 @@ Output:
 </html>
 
 
+
+
+
 ## Comments
 
 > Comments are used to add notes to a page. Comments are not displayed in the browser.
@@ -592,6 +687,9 @@ Code:
 ```
 <!-- This is a comment -->
 ```
+
+
+
 
 
 ## Head
@@ -613,6 +711,8 @@ Code:
 </html>
 ```
 
+
+
 ### Title
 
 > The title element contains the title of the document.
@@ -630,9 +730,13 @@ Code:
 </html>
 ```
 
+
+
 ### Meta Tags
 
 > Meta tags are used to specify information about the HTML document.
+
+
 
 #### Charset
 
@@ -651,6 +755,8 @@ Code:
 </html>
 ```
 
+
+
 #### Viewport
 
 > The viewport attribute specifies the size of the browser window.
@@ -667,6 +773,8 @@ Code:
     </body>
 </html>
 ```
+
+
 
 ### Links
 
