@@ -100,10 +100,6 @@ Code:
 <img src="Image.png">
 ```
 
-Output:
-
-<img src="Image.png">
-
 <br />
 
 #### Absolute Attribute
@@ -113,10 +109,6 @@ Code:
 ```
 <img src="http://www.example.com/Image.png">
 ```
-
-Output:
-
-<img src="http://www.example.com/Image.png">
 
 <br />
 
