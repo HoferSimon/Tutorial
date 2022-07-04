@@ -4,6 +4,7 @@
 
 
 <br />
+<br />
 
 
 ## Introduction
@@ -12,6 +13,7 @@
 
 
 <br />
+<br />
 
 
 ## Starting
@@ -19,6 +21,7 @@
 > If you want to start with HTML, you should know the following: How to create a HTML page. If you didnt know how to do it yet, you are free to jump to [How to create a HTML page](/Web-Development/How-to-create-a-Web-Page.md) and start learning.
 
 
+<br />
 <br />
 
 
@@ -49,6 +52,7 @@
 
 
 <br />
+<br />
 
 
 ## Elements
@@ -76,6 +80,7 @@ Code:
 (The `<br>` tag, produces a line break in text.)
 
 
+<br />
 <br />
 
 
@@ -195,6 +200,7 @@ Output:
 
 
 <br />
+<br />
 
 
 ## Headings
@@ -225,6 +231,7 @@ Output:
 
 
 <br />
+<br />
 
 
 ## Paragraphs
@@ -242,6 +249,7 @@ Output:
 <p>This is a paragraph</p>
 
 
+<br />
 <br />
 
 
@@ -312,6 +320,7 @@ Code:
 
 
 ## Formatting Text
+<br />
 
 > You can change the format of a text for a specific purpose.
 
@@ -463,6 +472,7 @@ Output:
 
 
 <br />
+<br />
 
 
 ## Colors
@@ -542,6 +552,7 @@ Code:
 
 
 ## Tables
+<br />
 
 > Tables are used to display data in a structured way.
 
@@ -624,6 +635,7 @@ Output:
 
 
 ## Lists
+<br />
 
 > Lists are used to display data in a structured way. Lists can be ordered or unordered.
 
@@ -665,6 +677,7 @@ Output:
 
 
 <br />
+<br />
 
 
 ## Comments
@@ -678,6 +691,7 @@ Code:
 ```
 
 
+<br />
 <br />
 
 
