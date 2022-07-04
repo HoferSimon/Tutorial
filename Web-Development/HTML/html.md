@@ -37,7 +37,7 @@
     </head>
     <body>
         <h1>My first html page!</h1>
-        <p>HTML is a awesome programming language ;)</p>
+        <p>HTML is not a programming language</p>
     </body>
 </html>
 
@@ -57,15 +57,116 @@
 Code:
 
 ```
-<h1>content</h1>
+<h1>Content</h1>
 ```
 
 Output:
 
-<h1>content</h1>
+<h1>Content</h1>
+
+> Some HTML elements dont have no content and don't have a closing tag. This is Elements are called empty elements.
+
+Code:
+
+```
+<br>
+```
+
+Output:
+
+<br>  
+
+(The `<br>` tag, produces a line break in text.)
 
 
 ## HTML Attributes
+
+> An HTML attribute is a piece of information that is associated with an HTML element. It provide additional information about the element. An Attribute is always in the start tag.
+
+### The src Attribute
+
+> The `src` attribute is used to define the source of the image. There are two possible src attributes. The Absolute and the Relative. The Absolute attribute links to an external image (Not on your filesystem). The Relative attribute links to an image in the same directory (In your filesystem).
+
+Code:
+
+```
+<img src="Image.png">
+```
+
+Output:
+
+<img src="Image.png">
+
+#### Absolute Attribute
+
+Code:
+
+```
+<img src="http://www.example.com/Image.png">
+```
+
+Output:
+
+<img src="http://www.example.com/Image.png">
+
+#### Relative Attribute
+
+Code:
+
+```
+<img src="/HTML/Images/Image.png">
+```
+
+
+### The href Attribute
+
+> The `href` attribute is used to link to another page. The `<a>` tag is used to create a hyperlink.
+
+Code:
+
+```
+<a href="http://www.example.com">This link links you to the example.com Website</a>
+```
+
+Output:
+
+<a href="http://www.example.com">This link links you to the example.com Website</a>
+
+### The Alt Attribute
+
+> The `alt` requires the `<img>` tag. The `Alt` attribute is used to display an alternate text for an image, if the image cannot be displayed. If the image cant be displayed the user can see the text and know what image should be displayed instead. The user cna also hover over the image and see the text.
+
+Code:
+
+```
+<img src="Image.png" alt="This is an image">
+```
+
+Output:
+
+<img src="Image.png" alt="This is an image">
+
+### CSS Attributes
+
+> The CSS Attributes can also be set in a CSS file. For better viseibility, you should use the a specific CSS file.
+
+#### The width and height Attributes
+
+> The width and the height Attributes set the width and height of an image.
+
+Code:
+
+```
+<img src="Image.png" width="200" height="200">
+```
+
+Output:
+
+<img src="Image.png" width="200" height="200">
+
+#### The style Attribute
+
+
 
 ## HTML Headings
 
