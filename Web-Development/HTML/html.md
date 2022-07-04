@@ -559,6 +559,41 @@ Code:
 </html>
 ```
 
+Output:
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<h2>Table</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone Number</th>
+  </tr>
+  <tr>
+    <td>Simon</td>
+    <td>Daniel</td>
+    <td>Markus</td>
+  </tr>
+  <tr>
+    <td>simon@gmail.com</td>
+    <td>daniel@gmail.com</td>
+    <td>markus@gmail.com</td>
+  </tr>
+  <tr>
+    <td>1112223333</td>
+    <td>4445556666</td>
+    <td>7778889999</td>
+  </tr>
+</table>
+
+</body>
+</html>
 
 ## Lists
 
