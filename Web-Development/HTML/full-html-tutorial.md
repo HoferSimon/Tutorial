@@ -9,7 +9,7 @@
 
 ## Introduction
 
-> HTML is a markup language used to create web pages. HTML describe the structure of a web page and the most inportant part, HTML is NOT a programming language.
+> HTML stands for Hypertext Markup Language. HTML is used to create web pages. HTML describe the structure of a web page and the most inportant part, HTML is NOT a programming language.
 
 
 <br />
